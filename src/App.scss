@@ -1,0 +1,42 @@
+$main: #a0ca92;
+$secondary: #4b543b;
+$textColor: #373d2b;
+
+.mainBody {
+  display: grid;
+  grid-template-columns: 20% auto;
+  column-gap: 40px;
+  align-items: center;
+  justify-items: center;
+  height: 100%;
+}
+
+.blocks {
+  display: grid;
+  margin-top: auto;
+  margin-bottom: auto;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
+
+  row-gap: 20px;
+  column-gap: 70px;
+  /* justify-content: space-evenly; */
+  padding-right: 40px;
+}
+
+.blocks > div {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.blocks > div:hover {
+  background-color: $main;
+}
+
+.blocks > div > img {
+  width: 350px;
+  height: 350x;
+}
+
+h3 {
+  display: block;
+}
