@@ -5,6 +5,7 @@ With the current pandemic and quarentine life, Dan and Jess have created this we
 
 ## Installation 
 ```git clone```
+
 ```npm start```
 
 navigate to localhost://3000
