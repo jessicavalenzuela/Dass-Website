@@ -12,4 +12,4 @@ navigate to localhost://3000
 
 ## Tech Stack
 * React.js
-
+* Node.js
