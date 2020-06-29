@@ -9,3 +9,7 @@ With the current pandemic and quarentine life, Dan and Jess have created this we
 ```npm start```
 
 navigate to localhost://3000
+
+## Tech Stack
+-- [x] )
+
