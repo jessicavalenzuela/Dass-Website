@@ -11,5 +11,5 @@ With the current pandemic and quarentine life, Dan and Jess have created this we
 navigate to localhost://3000
 
 ## Tech Stack
--- [x] )
+* React.js
 
