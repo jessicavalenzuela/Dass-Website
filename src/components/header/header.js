@@ -1,11 +1,12 @@
 import React, { Component } from "react";
-import menuLogo from "../../img/iconmonstr-menu-10-240.png";
+import logo from "../../img/logo.png";
 import "./headerStyle.scss";
 export default class header extends Component {
   render() {
     return (
       <div className="mainBlock">
-        <h1>DASS WHAT WE GONNA DO</h1>
+        <h1>Dass What We Gonna Do</h1>
+        <img src={logo} />
       </div>
     );
   }

@@ -1,11 +1,13 @@
 import React, { Component } from "react";
-import travel from "../../img/travel.png";
+import travel from "../../img/iceland.jpg";
 
 export default class travelBlock extends Component {
   render() {
     return (
       <div>
-        <img src={travel}></img>
+        <a href="/travel">
+          <img src={travel} height="350px" width="350px"></img>
+        </a>
       </div>
     );
   }

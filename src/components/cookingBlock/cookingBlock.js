@@ -1,12 +1,13 @@
 import React, { Component } from "react";
-import cook from "../../img/cook.png";
+import cook from "../../img/cook.jpg";
 
 export default class cookingBlock extends Component {
   render() {
     return (
       <div>
-        {/* <h3>Cooking</h3> */}
-        <img src={cook}></img>
+        <a href="/cooking">
+          <img src={cook} height="350px" width="350px"></img>
+        </a>
       </div>
     );
   }

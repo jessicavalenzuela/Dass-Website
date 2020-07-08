@@ -24,19 +24,26 @@ $textColor: #373d2b;
   padding-right: 40px;
 }
 
-.blocks > div {
+.blocks > div > a > img {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
-.blocks > div:hover {
-  background-color: $main;
-}
-
-.blocks > div > img {
+.blocks > div > a > img {
+  margin-bottom: 0px;
   width: 350px;
   height: 350x;
 }
 
 h3 {
   display: block;
+}
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) {
+  .blocks > div > a > img {
+    width: 225px;
+    height: 225x;
+  }
+  .blocks > div {
+    width: 225px;
+    height: 225x;
+  }
 }
