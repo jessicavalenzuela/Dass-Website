@@ -1,7 +1,7 @@
 $main: #a0ca92;
 $secondary: #4b543b;
 $textColor: #373d2b;
-
+$background: #fefef1;
 .mainBody {
   display: grid;
   grid-template-columns: 20% auto;
@@ -9,41 +9,4 @@ $textColor: #373d2b;
   align-items: center;
   justify-items: center;
   height: 100%;
-}
-
-.blocks {
-  display: grid;
-  margin-top: auto;
-  margin-bottom: auto;
-  grid-template-columns: auto auto auto;
-  grid-template-rows: auto auto auto;
-
-  row-gap: 20px;
-  column-gap: 70px;
-  /* justify-content: space-evenly; */
-  padding-right: 40px;
-}
-
-.blocks > div > a > img {
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-}
-
-.blocks > div > a > img {
-  margin-bottom: 0px;
-  width: 350px;
-  height: 350x;
-}
-
-h3 {
-  display: block;
-}
-@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) {
-  .blocks > div > a > img {
-    width: 225px;
-    height: 225x;
-  }
-  .blocks > div {
-    width: 225px;
-    height: 225x;
-  }
 }

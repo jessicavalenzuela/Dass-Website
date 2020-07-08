@@ -12,6 +12,7 @@ body {
 
 #root {
   height: 100%;
+  background-color: #fefef1;
 }
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
