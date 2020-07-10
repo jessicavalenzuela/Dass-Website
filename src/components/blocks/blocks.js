@@ -14,32 +14,48 @@ export default class artsBlock extends Component {
       <section>
         <div>
           <a href="/art">
-            <img src={art} height="350px" width="350px"></img>
+            <img
+              src={art}
+              height="350px"
+              width="350px"
+              className="img"
+              data-text="art"
+            ></img>
           </a>
         </div>
         <div>
           <a href="/cooking">
-            <img src={cook} height="350px" width="350px"></img>
+            <img src={cook} height="350px" width="350px" className="img"></img>
           </a>
         </div>
         <div>
           <a href="/goodfinds">
-            <img src={find} height="350px" width="350px"></img>
+            <img src={find} height="350px" width="350px" className="img"></img>
           </a>
         </div>
         <div>
           <a href="/techytech">
-            <img src={tech} height="350px" width="350px"></img>
+            <img src={tech} height="350px" width="350px" className="img"></img>
           </a>
         </div>
         <div>
           <a href="/travel">
-            <img src={travel} height="350px" width="350px"></img>
+            <img
+              src={travel}
+              height="350px"
+              width="350px"
+              className="img"
+            ></img>
           </a>
         </div>
         <div>
           <a href="/workout">
-            <img src={workout} height="350px" width="350px"></img>
+            <img
+              src={workout}
+              height="350px"
+              width="350px"
+              className="img"
+            ></img>
           </a>
         </div>
       </section>

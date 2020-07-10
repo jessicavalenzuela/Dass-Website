@@ -18,7 +18,11 @@ div > a > img {
   width: 350px;
   height: 350x;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  position: relative;
+  transition: 0.5s;
+  background-size: 100%;
 }
+
 @media screen and (min-device-width: 1200px) and (max-device-width: 1600px) {
   div > a > img {
     width: 225px;
