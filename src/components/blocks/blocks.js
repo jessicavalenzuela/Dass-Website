@@ -16,6 +16,7 @@ export default class artsBlock extends Component {
           <a href="/art">
             <img
               src={art}
+              alt="Art"
               height="350px"
               width="350px"
               className="img"
@@ -25,23 +26,24 @@ export default class artsBlock extends Component {
         </div>
         <div>
           <a href="/cooking">
-            <img src={cook} height="350px" width="350px" className="img"></img>
+            <img src={cook} alt="Cooking" height="350px" width="350px" className="img"></img>
           </a>
         </div>
         <div>
           <a href="/goodfinds">
-            <img src={find} height="350px" width="350px" className="img"></img>
+            <img src={find} alt="Good Finds" height="350px" width="350px" className="img"></img>
           </a>
         </div>
         <div>
           <a href="/techytech">
-            <img src={tech} height="350px" width="350px" className="img"></img>
+            <img src={tech} alt="Techy Tech" height="350px" width="350px" className="img"></img>
           </a>
         </div>
         <div>
           <a href="/travel">
             <img
               src={travel}
+              alt="Travel"
               height="350px"
               width="350px"
               className="img"
@@ -52,6 +54,7 @@ export default class artsBlock extends Component {
           <a href="/workout">
             <img
               src={workout}
+              alt="Workout"
               height="350px"
               width="350px"
               className="img"
